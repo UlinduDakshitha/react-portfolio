@@ -1,4 +1,3 @@
-import React, { Component } from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import classes from './Carousel.module.css';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
@@ -27,7 +26,7 @@ export default function CarouselImage() {
         <div>
           <img className={classes.image} src={Hello} alt='myImage' />
           <div className={classes.h1}>
-            I'm Sachin
+            I'm Ulindu
             <motion.h1
               initial={{ scale: 1 }}
               animate={{ scale: [1, 1.2, 1] }} // Define the scale values for the bouncing effect
@@ -36,12 +35,8 @@ export default function CarouselImage() {
                 scale: 1.1
               }}
             >
-              <a
-                href='https://drive.google.com/file/d/1X-i5HA9SzKKnNHCFcupGxq_RFu7fwcil/view?usp=drive_link'
-                rel='opener noreferrer'
-                target='_blank'
-              >
-                VIEW CV <FaArrowCircleDown />
+              <a href='https://github.com/UlinduDakshitha' rel='opener noreferrer' target='_blank'>
+                VIEW GITHUB <FaArrowCircleDown />
               </a>
             </motion.h1>
           </div>
@@ -49,22 +44,14 @@ export default function CarouselImage() {
         <div>
           <img className={classes.image} src={Pencil} alt='myImage' />
           <div className={classes.h2}>
-            <h1> I love building</h1>
-            <h1>THINGS!!</h1>
-            <a
-              href='https://github.com/mittalsam98?tab=repositories&q=&type=public&language=&sort='
-              rel='opener noreferrer'
-              target='_blank'
-            >
-              VIEW Web PROJECTS <GoProject />
+            <h1>Software Engineer</h1>
+            <h1>Undergraduate Trainee</h1>
+            <a href='https://github.com/UlinduDakshitha' rel='opener noreferrer' target='_blank'>
+              VIEW PROJECTS <GoProject />
             </a>
             <div className={classes.secondButton}>
-              <a
-                href='https://github.com/mittalsam98?tab=repositories&q=&type=&language=dart&sort='
-                rel='opener noreferrer'
-                target='_blank'
-              >
-                VIEW ANDROID PROJECTS <GoProject />
+              <a href='mailto:ulindudakshitha001@gmail.com' rel='opener noreferrer' target='_blank'>
+                CONTACT ME <GoProject />
               </a>
             </div>
           </div>

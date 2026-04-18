@@ -1,12 +1,9 @@
-import React, { Component } from 'react';
 import './Sidebar.css';
 import { HashLink as Link } from 'react-router-hash-link';
 import { motion } from 'framer-motion';
 
 import logo from '../images/sam.png';
 import github from '../images/github.png';
-import instagram from '../images/instagram.png';
-import twitter from '../images/twitterx.png';
 import linkedin from '../images/linkedin.png';
 import gmail from '../images/gmail.png';
 
@@ -25,23 +22,15 @@ export default function Sidebar() {
   const iconList = [
     {
       component: github,
-      href: 'https://github.com/mittalsam98'
+      href: 'https://github.com/UlinduDakshitha'
     },
     {
       component: linkedin,
-      href: 'https://www.linkedin.com/in/sachin-mittal-476174158?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BoRhF2EUsQJ%2BygJpLEZb%2FFA%3D%3D'
-    },
-    {
-      component: twitter,
-      href: 'https://twitter.com/Sachin_Mittal98'
-    },
-    {
-      component: instagram,
-      href: 'https://www.instagram.com/decent_sachin.mittal'
+      href: 'https://www.linkedin.com/in/ulindu-dakshitha-bandara/'
     },
     {
       component: gmail,
-      href: 'mailto:mittalsam98@gmail.com'
+      href: 'mailto:ulindudakshitha001@gmail.com'
     }
   ];
   const item = {
@@ -54,12 +43,12 @@ export default function Sidebar() {
 
   return (
     <div className='sidebar'>
-      <div className='topHashtag'># programmer_life</div>
-      <div className='topHashtag'># hello_world</div>
-      <div className='topHashtag'># coding</div>
+      <div className='topHashtag'># software_engineer</div>
+      <div className='topHashtag'># full_stack_developer</div>
+      <div className='topHashtag'># undergraduate_trainee</div>
       <h1>
         <Link smooth to='/#start' className='h1_links'>
-          Sachin Mittal
+          Ulindu Dakshitha Bandara
         </Link>
       </h1>
       <motion.div
@@ -70,13 +59,15 @@ export default function Sidebar() {
       </motion.div>
       <p style={{ color: 'black', fontWeight: 'bold' }} className='gmail'>
         <a
-          href='https://mail.google.com/mail/u/0/#inbox?compose=CllgCJftvBffjPmxWxvfHWRHWnhTbpQgPxBxvkcnPpFpFqbhrXMCHXSJTsCXCVLsQzgRcVLpnPL'
+          href='mailto:ulindudakshitha001@gmail.com'
           rel='opener noreferrer'
           target='_blank'
           className='fa fa-envelope'
         ></a>
-        &nbsp;mittalsam98@gmail.com
+        &nbsp;ulindudakshitha001@gmail.com
       </p>
+      <p style={{ color: 'black', fontWeight: 'bold' }}>+94 77 170 2842</p>
+      <p style={{ color: 'black' }}>Colombo, Sri Lanka</p>
 
       <ul className='sidebar-nav'>
         <li className='sidebar-nav-items'>
@@ -91,7 +82,7 @@ export default function Sidebar() {
         </li>
         <li className='sidebar-nav-items'>
           <Link smooth to='/#interest' className='links'>
-            Interest
+            Skills
           </Link>
         </li>
         <li className='sidebar-nav-items'>
@@ -124,16 +115,8 @@ export default function Sidebar() {
         }}
         className='tagtop'
       >
-        Made with <a href='#' className='fa fa-heart heart'></a> by me.
+        Building practical software with care.
       </div>
-      <button
-        onClick={() => {
-          window.open('https://github.com/mittalsam98/react-portfolio', '_blank');
-        }}
-        className='templateTextBtn'
-      >
-        Use this template
-      </button>
     </div>
   );
 }

@@ -1,4 +1,3 @@
-import React, { Component } from 'react';
 import classes from './Interest.module.css';
 // import ScrollAnimation from 'react-animate-on-scroll';
 import 'animate.css/animate.min.css';
@@ -13,8 +12,8 @@ export default function Interest() {
         animateOnce={true}
         initiallyVisible={true}
       > */}
-      <span className={classes.head}>WHAT I DO?</span>
-      <h2 className={classes.heading}>HERE ARE SOME OF MY EXPERTISE</h2>
+      <span className={classes.head}>SKILLS</span>
+      <h2 className={classes.heading}>TECHNICAL AND PROFESSIONAL STRENGTHS</h2>
       <div className={classes.Interest}>
         {/* <ScrollAnimation
             offset={0}
@@ -24,10 +23,10 @@ export default function Interest() {
             initiallyVisible={true}
           > */}
         <div className={classes.web}>
-          <h3>APP Develpoment</h3>
+          <h3>Technical Skills</h3>
           <p>
-            I have knowledge of flutter development and have experience in building android and IOS
-            applications. I also have live projects published on Google Play Store.
+            Languages: Java, JavaScript, TypeScript, SQL. Frameworks: React.js, Next.js, Node.js,
+            Spring Boot. Databases: MySQL, MongoDB.
           </p>
         </div>
         {/* </ScrollAnimation>
@@ -39,11 +38,10 @@ export default function Interest() {
             initiallyVisible={true}
           > */}
         <div className={classes.app}>
-          <h3>Web Development</h3>
+          <h3>Tools and Platforms</h3>
           <p>
-            Javascript/ Typescript, HTML/ CSS, ReactJs, Next.js, Prisma, tRPC, ZOD, Redux, Tailwind
-            CSS, UI Libraries (React-Bootstrap, Mantine, MUI, Shadcn UI), Redux Toolkit, T3 Stack,
-            JEST, Drizzle, Unit Testing.
+            Git, GitHub, REST APIs, JWT Authentication, AWS, Postman. Comfortable with collaborative
+            workflows, modular codebases, and API-first development.
           </p>
         </div>
         {/* </ScrollAnimation>
@@ -55,10 +53,10 @@ export default function Interest() {
             initiallyVisible={true}
           > */}
         <div className={classes.other}>
-          <h3>Expanded Expertise</h3>
+          <h3>Soft Skills</h3>
           <p>
-            AWS, Docker, GitHub, Frontend System Design, Express.js, Node.js, MongoDB, MERN Stack,
-            SQL, NOSQL, Socket.io, jQuery, Open to Monorepo architecture, Open Source Contribution, Learning Web3
+            Leadership, teamwork, problem solving, communication, and time management with a strong
+            willingness to learn and contribute in fast-moving teams.
           </p>
         </div>
         {/* </ScrollAnimation> */}

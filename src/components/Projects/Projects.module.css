@@ -65,6 +65,17 @@
   cursor: pointer;
 }
 
+.card__details {
+  padding: 0 18px 18px;
+  color: #1f1f1f;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.card__details p {
+  margin: 7px 0;
+}
+
 @media (max-width: 450px) {
   .cards {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
